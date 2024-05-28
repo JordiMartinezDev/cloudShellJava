@@ -11,5 +11,8 @@ public class App {
         tom.speak();
         amanda.speak();
         amanda.giveBirth();
+        
+        Human.staticMethod();
+        
     }
 }

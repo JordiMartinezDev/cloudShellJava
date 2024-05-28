@@ -23,4 +23,8 @@ public class Human {
 	public void work() {
 		System.out.println("working..");
 	}
+
+	public static void staticMethod(){
+		System.out.println("Static method called: ");
+	}
 }
