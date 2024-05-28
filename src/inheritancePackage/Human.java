@@ -1,5 +1,5 @@
 package inheritancePackage;
-public class Human {
+public abstract class Human {
 
 	String name;
 	int age;
@@ -27,4 +27,6 @@ public class Human {
 	public static void staticMethod(){
 		System.out.println("Static method called: ");
 	}
+
+	public abstract void fuck();
 }
