@@ -14,5 +14,8 @@ public class App {
         
         Human.staticMethod();
         
+        int myvar = amanda.talk(23);
+        System.out.println("Myvar: "+myvar);
+
     }
 }
