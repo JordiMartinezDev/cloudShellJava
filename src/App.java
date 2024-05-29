@@ -1,3 +1,4 @@
+import inheritancePackage.ArrayListLinkedList;
 import inheritancePackage.Human;
 import inheritancePackage.InheritanceAndAbstract;
 import inheritancePackage.Loops;
@@ -14,8 +15,12 @@ public class App {
             // InheritanceAndAbstract.run();
             // PlayingWithStrings.run();
 
-            UserInput.run();
-        
-        
+            // UserInput.run();
+        //     try{
+        //     UserInput.testExceptions(5);
+        // }catch (Exception e){
+        //     e.printStackTrace();
+        // }
+        ArrayListLinkedList.run();
     }
 }
