@@ -27,6 +27,13 @@ public class ArrayListLinkedList {
         System.out.println(myList.get(1));
         System.out.println(myList.lastIndexOf("Third element"));
 
+        for(int i = 0; i < myLinkedList.size(); i++ ){
+            System.out.println(myLinkedList.get(i));
+        }
+
+        for(String eachElement : myList){
+            System.out.println(eachElement);
+        }
     }
 
 }
