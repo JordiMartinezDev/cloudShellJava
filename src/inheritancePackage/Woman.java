@@ -13,7 +13,9 @@ public class Woman extends Human implements Talkable {
         System.out.println("Hello Talking Worman " +hello);
         return hello+1;
     }
-
+    public void speak(){
+        System.out.println("Woman talk too much.... ----------------------------------");
+    }
     public void fuck(){
         System.out.println("Woman fuck with pussy..");
     }
