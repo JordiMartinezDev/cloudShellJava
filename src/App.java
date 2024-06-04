@@ -4,6 +4,7 @@ import inheritancePackage.InheritanceAndAbstract;
 import inheritancePackage.Loops;
 import inheritancePackage.Man;
 import inheritancePackage.PlayingWithStrings;
+import inheritancePackage.TestingThreads;
 import inheritancePackage.UserInput;
 import inheritancePackage.Woman;
 
@@ -21,6 +22,12 @@ public class App {
         // }catch (Exception e){
         //     e.printStackTrace();
         // }
-        ArrayListLinkedList.run();
+        // ArrayListLinkedList.run();
+
+            TestingThreads aTrhead = new TestingThreads();
+            TestingThreads aTrhead2 = new TestingThreads();
+
+            aTrhead.start();
+            aTrhead2.start();
     }
 }
