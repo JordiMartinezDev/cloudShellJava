@@ -8,6 +8,7 @@ import inheritancePackage.TestingThreads;
 import inheritancePackage.UserInput;
 import inheritancePackage.Woman;
 import inheritancePackage.ThreatPractice;
+import inheritancePackage.Counter;
 
 
 public class App {
@@ -31,7 +32,10 @@ public class App {
 
             // aTrhead.start();
             // aTrhead2.start();
-            ThreatPractice practiceThread = new ThreatPractice();
+            Counter counter1 = new Counter();
+            ThreatPractice practiceThread = new ThreatPractice(counter1);
+            ThreatPractice practiceThread2 = new ThreatPractice(counter1);
             practiceThread.start();
+            practiceThread2.start();
     }
 }
